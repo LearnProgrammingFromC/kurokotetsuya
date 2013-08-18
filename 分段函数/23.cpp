@@ -2,6 +2,7 @@
 //
 
 #include "stdafx.h"
+//TODO: It is not nessary to math here.
 #include "math.h"
 int main(int argc, char* argv[])
 {
@@ -11,6 +12,7 @@ int main(int argc, char* argv[])
 	{
 		y=x;
 	}
+	//ToDo: It is not correct to use comma inside "if"
 	if(x>=1,x<10)
 	{
 		y=2*x-1;

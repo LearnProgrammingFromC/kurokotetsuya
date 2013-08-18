@@ -19,6 +19,7 @@ int main(int argc, char* argv[])
 	c3=c3+4;
 	c4=c4+4;
 	c5=c5+4;
+	//ToDo: Are you sure you can print the password?
 	printf("Ô­Âë£º%c%c%c%c%c\nÃÜÂë£º%c%c%c%c%c\n",c1,c2,c3,c4,c5);
 	return 0;
 
