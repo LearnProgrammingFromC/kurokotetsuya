@@ -2,11 +2,13 @@
 //
 
 #include "stdafx.h"
+//TODO: It is not nessary to math here.
 #include "math.h"
 int main(int argc, char* argv[])
 {
 	float a,b,c,t;
 	scanf("%f,%f,%f",&a,&b,&c);
+	//TODO: It is too complicate, please make it simple.
 	if(a>b)
 	{
 		t=a;

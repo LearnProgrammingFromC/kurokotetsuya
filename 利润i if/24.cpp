@@ -2,11 +2,13 @@
 //
 
 #include "stdafx.h"
+//TODO: It is not nessary to math here.
 #include "math.h"
 int main(int argc, char* argv[])
 {
 	float i,g;
 	scanf("%f",&i);
+	//ToDo: what happen if I input -1, 0, 1?
 	if(i<=100000)
 	{
 		g=i*0.1;
